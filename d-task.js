@@ -1,3 +1,4 @@
+const Account = require('./account.js')
 const moment = require("moment"); 
 class market {
 //Stack
@@ -62,18 +63,22 @@ sellProduct(product, quantity) {
 }
 }
 
-let newShop = new market(12, 5, 23, 7);
-newShop.residuals();
-console.log("********* 1 *********");
-newShop.addProducts('meat', 4);
-newShop.addProducts('oli', 1);
-console.log("********* 2 *********");
-newShop.sellProduct('bread', 8)
-newShop.sellProduct('sugur', 6)
-newShop.sellProduct('meat', 3)
+//let newShop = new market(12, 5, 23, 7);
+//newShop.residuals();
+//console.log("********* 1 *********");
+//newShop.addProducts('meat', 4);
+//newShop.addProducts('oli', 1);
+//console.log("********* 2 *********");
+//newShop.sellProduct('bread', 8)
+//newShop.sellProduct('sugur', 6)
+//newShop.sellProduct('meat', 3)
 
-console.log("********* 2 *********");
-newShop.residuals();
+//console.log("********* 3 *********");
+//newShop.residuals();
 
 
+
+const uraimov = new Account("Botir", 2000000, 508321344654);
+uraimov.giveMeDetails();
+Account.tellMeAboutClass();
 

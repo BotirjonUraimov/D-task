@@ -2,14 +2,20 @@
   "name": "d-task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "d-task.js",
   "scripts": {
+    "start": "nodemon d-task.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.4"
+    "chalk": "^4.1.2",
+    "inquirer": "^8.0.0",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.19",
+    "uuid": "^9.0.0",
+    "validator": "^13.7.0"
   }
 }
